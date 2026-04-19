@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../Container/Container";
 
 import logo from "../../assets/img/logo.png";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -11,14 +11,16 @@ const Navbar = () => {
         <Container>
           <div className="flex items-center justify-between gap-75 bg-[#ddd] p-[15px_15px_15px_15px] rounded-[15px]">
             <div>
-              <img className="w-20" src={logo} alt="logo image" />
+              <Link to="/">
+                <img className="w-20" src={logo} alt="logo image" />
+              </Link>
             </div>
 
             <div className="flex items-center gap-14">
               <nav>
-                <ul className="flex items-center gap-14"> 
+                <ul className="flex items-center gap-14">
                   <li className="text-[18px] font-semibold font-raleway leading-6.5 text-[#0D0600] hover:text-[#f16722] duration-300 ">
-                    <a href="#">Home</a>
+                    <Link to="/">Home</Link>
                   </li>
                   {/* 
                   <NavLink
@@ -32,22 +34,22 @@ const Navbar = () => {
                     </li>
                   </NavLink> */}
                   <li className="text-[18px] font-semibold font-raleway leading-6.5 text-[#0D0600] hover:text-[#f16722] duration-300 ">
-                    <a href="#">About Us</a>
+                    <Link to="/about-us">About Us</Link>
                   </li>
                   <li className="text-[18px] font-semibold font-raleway leading-6.5 text-[#0D0600] hover:text-[#f16722] duration-300 ">
-                    <a href="#">Our Service</a>
+                    <Link to="/our-service">Our Service</Link>
                   </li>
                   <li className="text-[18px] font-semibold font-raleway leading-6.5 text-[#0D0600] hover:text-[#f16722] duration-300 ">
-                    <a href="#">Our Work</a>
+                    <Link to="/our-work">Our Work</Link>
                   </li>
                   <li className="text-[18px] font-semibold font-raleway leading-6.5 text-[#0D0600] hover:text-[#f16722] duration-300 ">
-                    <a href="#">Contact Us</a>
+                    <Link to="/contact-us">Contact Us</Link>
                   </li>
                 </ul>
               </nav>
               <div>
                 <button className="text-white text-[18px] font-bold leading-6.25 bg-[#f16722] py-2 px-8 rounded-[30px] cursor-pointer border border-[#f16722] hover:bg-transparent hover:text-[#f16722] duration-300 ">
-                  Get A Quote
+                  <Link to="/contact-us">Get A Quote</Link>
                 </button>
               </div>
             </div>
