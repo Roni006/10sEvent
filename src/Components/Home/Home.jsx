@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Services from "../../pages/Services";
 
 const Home = () => {
   return (
-    <div className='text-red-600 text-[200px]'>Home</div>
-  )
-}
+    <>
+      <Services />
+    </>
+  );
+};
 
-export default Home
+export default Home;
