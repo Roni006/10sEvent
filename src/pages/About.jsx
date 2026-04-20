@@ -55,8 +55,15 @@ const About = () => {
             </div>
           </div>
         </Container>
-        <div>
-            
+        <div className="bg-[#F16722] p-[14px_75px]">
+          <div className="text-center max-w-[267]">
+            <h3 className="text-white text-[54px] font-raleway font-bold leading-17.5 pb-1.25">
+              105
+            </h3>
+            <p className="text-white leading-8.75 font-raleway text-[28px] font-semibold">
+              Events Planned
+            </p>
+          </div>
         </div>
       </section>
     </>
