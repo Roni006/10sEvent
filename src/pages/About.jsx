@@ -3,10 +3,29 @@ import Container from "../Common/Container/Container";
 import gruopIcon from "../../src/assets/img/group-icon.png";
 import aboutBottom from "../../src/assets/img/about/about-bottom.png";
 import logo from "../../src/assets/img/about/about-logo.png";
-import aboutBg from '../../src/assets/img/about/about-bg.png'
+import aboutBg from "../../src/assets/img/about/about-bg.png";
 import { Link } from "react-router-dom";
 
 const About = () => {
+  const counters = [
+    {
+      text: 150,
+      details: "Events Planned",
+    },
+    {
+      text: 40,
+      details: "Protocal Service",
+    },
+    {
+      text: 230,
+      details: "Customers",
+    },
+    {
+      text: 245,
+      details: "Projects",
+    },
+  ];
+
   return (
     <>
       <section>
@@ -50,20 +69,22 @@ const About = () => {
             </div>
 
             {/* bottom content  */}
-            <div className="mt-17">
+            <div className="my-17">
               <img className="rounded-md" src={aboutBg} alt="about bg" />
             </div>
           </div>
         </Container>
-        <div className="bg-[#F16722] p-[14px_75px]">
-          <div className="text-center max-w-[267]">
-            <h3 className="text-white text-[54px] font-raleway font-bold leading-17.5 pb-1.25">
-              105
-            </h3>
-            <p className="text-white leading-8.75 font-raleway text-[28px] font-semibold">
-              Events Planned
-            </p>
-          </div>
+        <div className="bg-[#F16722] p-[14px_75px] grid grid-cols-4 items-center gap-12.5">
+          {counters.map((counter, i) => (
+            <div key={i} className="text-center max-w-[267]">
+              <h3 className="text-white text-[54px] font-raleway font-bold leading-17.5 pb-1.25">
+                {counter.text}
+              </h3>
+              <p className="text-white leading-8.75 font-raleway text-[28px] font-semibold">
+                {counter.details}
+              </p>
+            </div>
+          ))}
         </div>
       </section>
     </>
