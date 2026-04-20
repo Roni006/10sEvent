@@ -1,40 +1,40 @@
 import React from "react";
 import Container from "../Common/Container/Container";
 import gruopIcon from "../../src/assets/img/group-icon.png";
-import service1 from "./../../src/assets/img/service/service1.png";
-import service2 from "./../../src/assets/img/service/service2.png";
-import service3 from "./../../src/assets/img/service/service3.png";
-import service4 from "./../../src/assets/img/service/service4.png";
-import service5 from "./../../src/assets/img/service/service5.png";
+import services1 from "./../../src/assets/img/services/services1.png";
+import services2 from "./../../src/assets/img/services/services2.png";
+import services3 from "./../../src/assets/img/services/services3.png";
+import services4 from "./../../src/assets/img/services/services4.png";
+import services5 from "./../../src/assets/img/services/services5.png";
 
 const Services = () => {
   const services = [
     {
-      img: service1,
+      img: services1,
       title: "Event Planning",
       desc: "As the best event planner companies in the industry, we arm you with a lifetime of experience to turn your idea into the perfect event.",
     },
 
     {
-      img: service2,
+      img: services2,
       title: "Protocol Service",
       desc: "We have a team of loyal, professional experts who specialize in protocol so, No matter what type of event you are hosting, we can serve you.",
     },
 
     {
-      img: service3,
+      img: services3,
       title: "Food and Beverages",
       desc: "Our chefs and bartenders are skilled professionals who focus on quality so, No matter what service you need, we are ready to serve you.",
     },
 
     {
-      img: service4,
+      img: services4,
       title: "Outside Catering",
       desc: "We're dedicated to providing our clients with top-quality outside catering services,",
     },
 
     {
-      img: service5,
+      img: services5,
       title: "Video and Photograph",
       desc: "We also specialize in high quality, High definition video and photography services that will make your event unforgettable.",
     },
