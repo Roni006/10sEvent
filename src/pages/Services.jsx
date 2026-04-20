@@ -24,7 +24,7 @@ const Services = () => {
     {
       img: service3,
       title: "Food and Beverages",
-      desc: "Our chefs and bartenders are dedicated to providing you with the highest quality cuisine and service.",
+      desc: "Our chefs and bartenders are skilled professionals who focus on quality so, No matter what service you need, we are ready to serve you.",
     },
 
     {
