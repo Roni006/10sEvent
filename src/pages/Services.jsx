@@ -8,6 +8,38 @@ import service4 from "./../../src/assets/img/service/service4.png";
 import service5 from "./../../src/assets/img/service/service5.png";
 
 const Services = () => {
+  const services = [
+    {
+      img: service1,
+      title: "Event Planning",
+      desc: "As the best event planner companies in the industry, we arm you with a lifetime of experience to turn your idea into the perfect event.",
+    },
+
+    {
+      img: service2,
+      title: "Protocol Service",
+      desc: "We have a team of loyal, professional experts who specialize in protocol so, No matter what type of event you are hosting, we can serve you.",
+    },
+
+    {
+      img: service3,
+      title: "Food and Beverages",
+      desc: "Our chefs and bartenders are dedicated to providing you with the highest quality cuisine and service.",
+    },
+
+    {
+      img: service4,
+      title: "Outside Catering",
+      desc: "We're dedicated to providing our clients with top-quality outside catering services,",
+    },
+
+    {
+      img: service5,
+      title: "Video and Photograph",
+      desc: "We also specialize in high quality, High definition video and photography services that will make your event unforgettable.",
+    },
+  ];
+
   return (
     <>
       <section className="py-30">
@@ -19,20 +51,24 @@ const Services = () => {
             </h1>
             <img src={gruopIcon} alt="icon image" />
           </div>
-          <div className="pt-18">
-            <div className="max-w-88 shadow-xl rounded-[20px] border-2 border-[#ddd]">
-              <img className="rounded-[20px_20px_0_0]" src={service1} alt="service images" />
-              <div className="p-[20px_25px_22px_25px]">
-                <h3 className="text-[#261c13] font-normal font-raleway text-[27px] leading-9 pb-4 text-center">
-                  Event Planning
-                </h3>
-                <p className="text-[#261C13] font-normal font-raleway leading-6.5 text-[18px] max-w-75.25 text-center mx-auto">
-                  As the best event planner companies in the industry, we arm
-                  you with a lifetime of experience to turn your idea into the
-                  perfect event.
-                </p>
+          <div className="pt-18 flex flex-wrap gap-25 justify-center items-center">
+            {services.map((card, i) => (
+              <div key={i} className="max-w-88 shadow-xl rounded-[20px] border-2 border-[#ddd]">
+                <img
+                  className="rounded-[20px_20px_0_0]"
+                  src={card.img}
+                  alt="service images"
+                />
+                <div className="p-[20px_25px_22px_25px]">
+                  <h3 className="text-[#261c13] font-normal font-raleway text-[27px] leading-9 pb-4 text-center">
+                    {card.title}
+                  </h3>
+                  <p className="text-[#261C13] font-normal font-raleway leading-6.5 text-[18px] max-w-75.25 text-center mx-auto">
+                    {card.desc}
+                  </p>
+                </div>
               </div>
-            </div>
+            ))}
           </div>
         </Container>
       </section>
