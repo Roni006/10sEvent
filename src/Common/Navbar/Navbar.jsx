@@ -7,9 +7,9 @@ import { Link, NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <section>
+      <section className="sticky absolute top-2 left-0 w-full z-50">
         <Container>
-          <div className="flex items-center justify-between gap-75 bg-[#ddd] p-[15px_15px_15px_15px] rounded-[15px]">
+          <div className="flex items-center justify-between gap-75 bg-white border-b-2 border-[#ddd] p-[15px_15px_15px_15px] rounded-[15px]">
             <div>
               <Link to="/">
                 <img className="w-20" src={logo} alt="logo image" />

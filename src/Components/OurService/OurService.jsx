@@ -1,14 +1,16 @@
-import React from 'react'
-import Service from '../../pages/Service'
-import CallToAction from '../../pages/CallToAction'
+import React from "react";
+import Service from "../../pages/Service";
+import CallToAction from "../../pages/CallToAction";
+import ServiceBanner from "../../pages/ServiceBanner";
 
 const OurService = () => {
   return (
     <>
-    <Service/>
-    <CallToAction/>
+      <ServiceBanner />
+      <Service />
+      <CallToAction />
     </>
-  )
-}
+  );
+};
 
-export default OurService
+export default OurService;
