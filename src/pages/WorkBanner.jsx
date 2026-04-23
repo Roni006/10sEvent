@@ -1,6 +1,6 @@
 import React from "react";
 
-import workBg from '../../src/assets/img/our-work/work-bg.png'
+import workBg from "../../src/assets/img/our-work/work-bg.png";
 
 const WorkBanner = () => {
   return (
@@ -11,12 +11,16 @@ const WorkBanner = () => {
 
           <div className="absolute inset-0 bg-black/50"></div>
 
-          <div className="absolute inset-0 flex items-center justify-center">
-            <h1 className="text-[#f16722] max-w-200 text-[76px] leading-25 font-medium font-raleway text-center">
+          <div className="absolute inset-0 flex flex-col items-center justify-center">
+            <h1 className="text-[#f16722] text-[76px] leading-25 font-medium font-raleway text-center">
               10’s EVENT
-              <span className="text-white">Check out our recent </span>
-              Work
             </h1>
+            <span className="text-[76px] leading-25 font-medium font-raleway text-center text-white">
+              Check out our recent
+            </span>
+            <span className="text-[76px] leading-25 font-medium font-raleway text-center text-[#f16722]">
+              Work
+            </span>
           </div>
         </div>
       </section>

@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import AboutBanner from "../../pages/AboutBanner";
+import CallToAction from "../../pages/CallToAction";
+import Achivement from "../../pages/Achivement";
 
 const AboutUs = () => {
   return (
-    <div>AboutUs</div>
-  )
-}
+    <>
+      <AboutBanner />
+      
+    </>
+  );
+};
 
-export default AboutUs
+export default AboutUs;
