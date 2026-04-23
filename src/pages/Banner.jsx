@@ -5,7 +5,7 @@ import BannerBg from '../../src/assets/img/banner.png'
 const Banner = () => {
   return (
     <>
-      <section >
+      <section className="-mt-20">
         <div className="relative">
           <img className="w-full h-auto" src={BannerBg} alt="banner bg" />
 
