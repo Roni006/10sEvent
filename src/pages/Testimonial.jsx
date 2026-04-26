@@ -10,8 +10,8 @@ const Testimonial = () => {
         <Container>
           <div className="flex flex-col items-center justify-center">
             <h1 className="text-[54px] font-semibold font-raleway leading-17.5 text-[#000000] pb-2 ">
-              About
-              <span className="text-[#f16722]">10’s Event</span>
+              Why People
+              <span className="text-[#f16722]"> Love Us</span>
             </h1>
             <img src={testBg} alt="icon image" /> 
           </div>
