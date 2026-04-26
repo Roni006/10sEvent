@@ -20,14 +20,18 @@ const About = () => {
                 <span className="text-[#f16722]"> 10’s Event</span>
               </h1>
               <img src={aboutBottom} alt="icon image" />
-            </div> 
+            </div>
 
             {/* middle content  */}
-            <div className="mt-17">
-              <div className="flex items-center gap-15">
-                <img className="cursor-pointer" src={logo} alt="about logo" />
+            <div className="sm:mt-17 mt-12">
+              <div className="lg:flex items-center gap-15">
+                <img
+                  className="mx-auto cursor-pointer"
+                  src={logo}
+                  alt="about logo"
+                />
                 <div>
-                  <p className="font-raleway font-normal text-[18px] text-[#48301b] leading-6.5 max-w-142.75 text-justify">
+                  <p className="font-raleway font-normal text-[18px] text-[#48301b] leading-6.5 lg:max-w-142.75 text-justify">
                     We are a professional team of loyal and professional event
                     coordinators who work together to serve our clients' every
                     need. From start to finish, we are dedicated to making sure
@@ -38,11 +42,11 @@ const About = () => {
                   </p>
 
                   {/* buttons  */}
-                  <div className="flex items-center gap-12 mt-15">
-                    <button className="text-[18px] font-raleway font-bold leading-6.5 text-white py-3.5 px-8 bg-[#F16722] rounded-[30px]">
+                  <div className="flex items-center md:justify-center sm:justify-center justify-center sm:gap-12 gap-5 sm:mt-15 mt-8">
+                    <button className="sm:text-[18px] text-[16px] font-raleway font-bold leading-6.5 text-white sm:py-3.5 py-3 sm:px-8 px-4 bg-[#F16722] rounded-[30px]">
                       <Link>Contact Us</Link>
                     </button>
-                    <button className="text-[18px] font-raleway font-bold leading-6.5 text-white py-3.5 px-8 bg-[#F16722] hover:rounded-[30px] duration-300">
+                    <button className="sm:text-[18px] text-[16px] font-raleway font-bold leading-6.5 text-white sm:py-3.5 py-2.75 sm:px-8 px-4 bg-[#F16722] hover:rounded-[30px] duration-300">
                       <Link>Learn More</Link>
                     </button>
                   </div>
@@ -51,13 +55,13 @@ const About = () => {
             </div>
 
             {/* bottom content  */}
-            <div className="my-17">
+            <div className="my-17 hidden">
               <img className="rounded-md" src={aboutBg} alt="about bg" />
             </div>
           </div>
         </Container>
         {/* counter  */}
-        <Achivement />
+        {/* <Achivement className="hidden" /> */}
       </section>
     </>
   );

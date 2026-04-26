@@ -42,7 +42,7 @@ const Services = () => {
 
   return (
     <>
-      <section className="py-30">
+      <section className="md:py-30 sm:py-20 py-20 ">
         <Container>
           <div className="flex flex-col items-center justify-center">
             <h1 className="sm:text-[54px] text-[30px]  font-semibold font-raleway sm:leading-17.5 leading-8.75 text-center w-70 sm:w-120 md:w-full text-[#000000] pb-4  ">
