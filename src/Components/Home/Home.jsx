@@ -7,11 +7,12 @@ import Banner from "../../pages/Banner";
 
 const Home = () => {
   return (
-    <><Banner/>
+    <>
+    {/* <Banner/> */}
       <Services />
-      <About />
+      {/* <About />
       <CallToAction />
-      <Testimonial/>
+      <Testimonial/> */}
     </>
   );
 };

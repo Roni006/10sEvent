@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import Container from "../../Common/Container/Container";
 
 const ContactUs = () => {
   return (
-    <div>ContactUs</div>
-  )
-}
+    <>
+      <section>
+        <Container>
+          <div>ContactUs</div>
+        </Container>
+      </section>
+    </>
+  );
+};
 
-export default ContactUs
+export default ContactUs;

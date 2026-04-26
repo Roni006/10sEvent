@@ -45,13 +45,13 @@ const Services = () => {
       <section className="py-30">
         <Container>
           <div className="flex flex-col items-center justify-center">
-            <h1 className="text-[54px] font-semibold font-raleway leading-17.5 text-[#000000] pb-2 ">
-              We Provide The{" "}
-              <span className="text-[#f16722]">Following Service</span>
+            <h1 className="sm:text-[54px] text-[30px]  font-semibold font-raleway sm:leading-17.5 leading-8.75 text-center w-70 sm:w-120 md:w-full text-[#000000] pb-4  ">
+              We Provide The
+              <span className="text-[#f16722]"> Following Service</span>
             </h1>
             <img src={gruopIcon} alt="icon image" />
           </div>
-          <div className="pt-18 flex flex-wrap gap-25 justify-center items-center">
+          <div className="sm:pt-18 pt-8 flex flex-wrap sm:gap-25 gap-8 justify-center items-center">
             {services.map((card, i) => (
               <div key={i} className="max-w-88 shadow-xl rounded-[20px] border-2 border-[#ddd]">
                 <img
