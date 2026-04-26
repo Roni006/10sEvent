@@ -30,7 +30,7 @@ const Services = () => {
     {
       img: services4,
       title: "Outside Catering",
-      desc: "We're dedicated to providing our clients with top-quality outside catering services,",
+      desc: "We have a team of professional experts in protocol, ready to serve any event with precision, care, and exceptional attention to detail.",
     },
 
     {
@@ -51,19 +51,19 @@ const Services = () => {
             </h1>
             <img src={gruopIcon} alt="icon image" />
           </div>
-          <div className="sm:pt-18 pt-8 flex flex-wrap sm:gap-25 gap-8 justify-center items-center">
+          <div className="2xl:pt-18 xl:pt-12 lg:pt-12 md:pt-12 sm:pt-10 pt-8 flex flex-wrap 2xl:gap-18 xl:gap-10 lg:gap-8 md:gap-6 sm:gap-10 gap-8 justify-center items-center">
             {services.map((card, i) => (
               <div key={i} className="max-w-88 shadow-xl rounded-[20px] border-2 border-[#ddd]">
                 <img
-                  className="rounded-[20px_20px_0_0]"
+                  className="w-full rounded-[20px_20px_0_0]"
                   src={card.img}
                   alt="service images"
                 />
                 <div className="p-[20px_25px_22px_25px]">
-                  <h3 className="text-[#261c13] font-normal font-raleway text-[27px] leading-9 pb-4 text-center">
+                  <h3 className="text-[#261c13] font-normal font-raleway sm:text-[27px] text-[25px] leading-9 pb-4 text-center">
                     {card.title}
                   </h3>
-                  <p className="text-[#261C13] font-normal font-raleway leading-6.5 text-[18px] max-w-75.25 text-center mx-auto">
+                  <p className="text-[#261C13] font-normal font-raleway leading-6.5 sm:text-[18px] text-[16px] max-w-75.25 text-center mx-auto">
                     {card.desc}
                   </p>
                 </div>
