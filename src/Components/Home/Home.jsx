@@ -8,7 +8,7 @@ import Banner from "../../pages/Banner";
 const Home = () => {
   return (
     <>
-    {/* <Banner/> */}
+      <Banner />
       <Services />
       <About />
       {/* <CallToAction />
