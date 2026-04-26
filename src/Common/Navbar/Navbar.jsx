@@ -18,7 +18,7 @@ const Navbar = () => {
 
             <div className="flex items-center gap-14">
               <nav>
-                <ul className="flex items-center gap-14">
+                <ul className="flex items-center gap-14 md:hidden">
                   <li className="text-[18px] font-semibold font-raleway leading-6.5 text-[#0D0600] hover:text-[#f16722] duration-300 ">
                     <Link to="/">Home</Link>
                   </li>
