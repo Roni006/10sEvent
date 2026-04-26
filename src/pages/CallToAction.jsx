@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const CallToAction = () => {
   return (
     <>
-      <section className="py-30">
+      <section className="pb-20">
         <Container>
           <div className="relative">
             <img src={Action} alt="call to action image" />
