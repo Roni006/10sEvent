@@ -15,12 +15,12 @@ const About = () => {
           <div>
             {/* top content  */}
             <div className="flex flex-col items-center justify-center">
-              <h1 className="text-[54px] font-semibold font-raleway leading-17.5 text-[#000000] pb-2 ">
+              <h1 className="sm:text-[54px] text-[30px]  font-semibold font-raleway sm:leading-17.5 leading-8.75 text-center w-70 sm:w-120 md:w-full text-[#000000] pb-4  ">
                 About
-                <span className="text-[#f16722]">10’s Event</span>
+                <span className="text-[#f16722]"> 10’s Event</span>
               </h1>
               <img src={aboutBottom} alt="icon image" />
-            </div>
+            </div> 
 
             {/* middle content  */}
             <div className="mt-17">
