@@ -5,15 +5,17 @@ import wpTop1 from '../../src/assets/img/workportfolio/wp-top-1.png'
 import wpTop2 from '../../src/assets/img/workportfolio/wp-top-2.png'
 import wpTop3 from '../../src/assets/img/workportfolio/wp-top-3.png'
 import wpTop4 from '../../src/assets/img/workportfolio/wp-top-4.png'
+import wpTop5 from '../../src/assets/img/workportfolio/wp-top-5.png'
+import wpTop6 from '../../src/assets/img/workportfolio/wp-top-6.png'
 
 const WorkPortfolio1 = () => {
   return (
     <>
       <section className="py-20">
         <Container>
-          <div>
-            <div className="flex jsuctify-between items-start gap-7.5">
-                {/* left content  */}
+          <div className="flex flex-col justify-center">
+            <div className="flex jsuctify-center items-start gap-7.5">
+              {/* left content  */}
               <div className="relative">
                 <img src={portfolioBg} alt="" />
                 <div className="absolute inset-0 flex flex-col items-start justify-center p-[94px_74px_147px_50px]">
@@ -38,7 +40,10 @@ const WorkPortfolio1 = () => {
                 <img src={wpTop4} alt="work portfolio" />
               </div>
             </div>
-            <div></div>
+            <div className="flex gap-10.5 mt-8 ">
+              <img src={wpTop5} alt="work portfolio" />
+              <img className="w-[280px]" src={wpTop6} alt="work portfolio" />
+            </div>
           </div>
         </Container>
       </section>
