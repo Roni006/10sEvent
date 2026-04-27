@@ -1,6 +1,10 @@
 import React from "react";
 import Container from "../Common/Container/Container";
 import portfolioBg from "../../src/assets/img/workportfolio/portfolio-bg.png";
+import wpTop1 from '../../src/assets/img/workportfolio/wp-top-1.png'
+import wpTop2 from '../../src/assets/img/workportfolio/wp-top-2.png'
+import wpTop3 from '../../src/assets/img/workportfolio/wp-top-3.png'
+import wpTop4 from '../../src/assets/img/workportfolio/wp-top-4.png'
 
 const WorkPortfolio1 = () => {
   return (
@@ -8,7 +12,8 @@ const WorkPortfolio1 = () => {
       <section className="py-20">
         <Container>
           <div>
-            <div>
+            <div className="flex jsuctify-between items-start gap-7.5">
+                {/* left content  */}
               <div className="relative">
                 <img src={portfolioBg} alt="" />
                 <div className="absolute inset-0 flex flex-col items-start justify-center p-[94px_74px_147px_50px]">
@@ -25,7 +30,13 @@ const WorkPortfolio1 = () => {
                   </p>
                 </div>
               </div>
-              <div></div>
+              {/* right content  */}
+              <div className="grid grid-cols-2 items-center justify-center gap-8">
+                <img src={wpTop1} alt="work portfolio" />
+                <img src={wpTop2} alt="work portfolio" />
+                <img src={wpTop3} alt="work portfolio" />
+                <img src={wpTop4} alt="work portfolio" />
+              </div>
             </div>
             <div></div>
           </div>
