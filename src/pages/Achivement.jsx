@@ -21,13 +21,13 @@ const Achivement = () => {
       ];
   return (
     <>
-      <div className="bg-[#F16722] p-[14px_75px] grid grid-cols-4 items-center gap-12.5">
+      <div className="bg-[#F16722] p-[14px_75px] grid md:grid-cols-4 sm:grid-cols-3 grid-cols-1 justify-center mx-auto items-center sm:gap-12.5 gap-5">
         {counters.map((counter, i) => (
           <div key={i} className="text-center max-w-[267]">
-            <h3 className="text-white text-[54px] font-raleway font-bold leading-17.5 pb-1.25">
+            <h3 className="text-white sm:text-[45px] text-[54px] font-raleway font-bold leading-17.5 pb-1.25">
               {counter.text}
             </h3>
-            <p className="text-white leading-8.75 font-raleway text-[28px] font-semibold">
+            <p className="text-white leading-8.75 font-raleway lg:text-[25px] sm:text-[20px] text-[28px] font-semibold">
               {counter.details}
             </p>
           </div>
