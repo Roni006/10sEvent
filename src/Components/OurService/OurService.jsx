@@ -8,7 +8,7 @@ const OurService = () => {
     <>
       <ServiceBanner />
       <Service />
-      <CallToAction />
+      {/* <CallToAction /> */}
     </>
   );
 };

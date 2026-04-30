@@ -50,32 +50,37 @@ const Service = () => {
   ];
   return (
     <>
-      <section className="py-20">
+      <section className="md:py-0 sm:py-0 ">
         <Container>
           <div className="">
             {eventService.map((service, i) => (
-              <div className="flex items-center justify-center gap-11.25 pt-12">
-                <div className="max-w-107.5">
-                  <h2 className="text-[38px] font-semibold leading-12.25 text-[#f16722]">
+              <div className=" flex lg:flex-row flex-col justify-center sm:gap-11.25 gap-5 sm:pt-12 pt-8">
+                {/* left part  */}
+                <div className="lg:max-w-107.5 sm:max-w-auto mx-auto">
+                  <h2 className="lg:text-[30px] sm:text-[38px] text-[35px] lg:text-left text-center font-semibold leading-12.25 text-[#f16722]">
                     {service.title}
                   </h2>
-                  <p className="text-[#0d0600] leading-6.25 font-normal font-raleway text-[18px] pt-5 text-justify">
+                  <p className="text-[#0d0600] leading-6.25 font-normal font-raleway text-[18px] lg:pt-2 sm:pt-5  pt-2 text-justify">
                     {service.desc}
                   </p>
                 </div>
-                <div>
-                  <img
-                    className="rounded-md"
-                    src={service.img1}
-                    alt="sevice images"
-                  />
-                </div>
-                <div>
-                  <img
-                    className="rounded-md"
-                    src={service.img2}
-                    alt="service images"
-                  />
+
+                {/* right part */}
+                <div className="max-w-211.25 flex sm:flex-row flex-col items-center justify-center lg:gap-5 md:gap-8 sm:gap-5 gap-3 md:pt-4 sm:-mt-5 pt-0  ">
+                  <div>
+                    <img
+                      className="md:-w-[280px] w-full rounded-md"
+                      src={service.img1}
+                      alt="sevice images"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      className="md:-w-70 w-full rounded-md"
+                      src={service.img2}
+                      alt="service images"
+                    />
+                  </div>
                 </div>
               </div>
             ))}
