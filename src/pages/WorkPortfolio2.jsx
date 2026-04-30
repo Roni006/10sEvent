@@ -21,7 +21,7 @@ const WorkPortfolio2 = () => {
                   <h3 className="text-[#f16722] font-medium font-raleway text-[38px] leading-12">
                     Ishaj's Birthday
                   </h3>
-                  <h1 className="text-[50px] font-bold font-raleway leading-15 text-[#000000] max-w-[469px] p-[30px_0_16px_0]">
+                  <h1 className="text-[50px] font-bold font-raleway leading-15 text-[#000000] max-w-117.25 p-[30px_0_16px_0]">
                     Event Planning, Protocol Service & Catering
                   </h1>
                   <p className="text-[18px] font-normal font-raleway leading-6.5 text-[#000000] max-w-100">
@@ -40,7 +40,7 @@ const WorkPortfolio2 = () => {
             </div>
             <div className="flex gap-10.5 mt-8 ">
               <img src={wpBtm5} alt="work portfolio" />
-              <img className="w-[280px]" src={wpBtm6} alt="work portfolio" />
+              <img className="w-70" src={wpBtm6} alt="work portfolio" />
             </div>
           </div>
         </Container>

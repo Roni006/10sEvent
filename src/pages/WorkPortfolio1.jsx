@@ -70,12 +70,12 @@ const WorkPortfolio1 = () => {
             </div>
             <div className="flex xl:flex-row flex-col sm:gap-10.5 gap-5 mt-8 items-center justify-center">
               <img
-                className="rounded-md xl:w-[755px] xl:h-[263px] w-[480px] h-[200px]"
+                className="rounded-md xl:w-188.75 xl:h-65.75 w-120 h-50"
                 src={wpTop5}
                 alt="work portfolio"
               />
               <img
-                className="rounded-md  xl:w-[350px] xl:h-[263px] w-[550px] h-[300px]"
+                className="rounded-md  xl:w-87.5 xl:h-65.75 w-137.5 h-75"
                 src={wpTop6}
                 alt="work portfolio"
               />
