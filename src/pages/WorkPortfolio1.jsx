@@ -61,17 +61,25 @@ const WorkPortfolio1 = () => {
                 </div>
               </div>
               {/* right content  */}
-              <div className= "  grid grid-cols-2 items-center justify-center sm:gap-8 gap-4">
+              <div className="  grid grid-cols-2 items-center justify-center sm:gap-8 gap-4">
                 <img className="rounded-md" src={wpTop1} alt="work portfolio" />
                 <img className="rounded-md" src={wpTop2} alt="work portfolio" />
                 <img className="rounded-md" src={wpTop3} alt="work portfolio" />
                 <img className="rounded-md" src={wpTop4} alt="work portfolio" />
               </div>
             </div>
-            {/* <div className="flex gap-10.5 mt-8 ">
-              <img src={wpTop5} alt="work portfolio" />
-              <img className="w-[280px]" src={wpTop6} alt="work portfolio" />
-            </div> */}
+            <div className="flex xl:flex-row flex-col sm:gap-10.5 gap-5 mt-8 items-center justify-center">
+              <img
+                className="rounded-md xl:w-[755px] xl:h-[263px] w-[480px] h-[200px]"
+                src={wpTop5}
+                alt="work portfolio"
+              />
+              <img
+                className="rounded-md  xl:w-[350px] xl:h-[263px] w-[550px] h-[300px]"
+                src={wpTop6}
+                alt="work portfolio"
+              />
+            </div>
           </div>
         </Container>
       </section>
