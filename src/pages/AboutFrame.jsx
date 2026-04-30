@@ -7,17 +7,18 @@ const AboutFrame = () => {
     <>
       <section className="sm:py-20 py-12">
         <Container>
-          <div className="flex xl:flex-row flex-col justify-between gap-10">
-            <div>
+          <div className="flex xl:flex-row lg:flex-row justify-center  items-center flex-col  gap-10">
+            {/* total left content  */}
+            <div className="max-w-150">
               {/* about top  */}
-              <div>
-                <h1 className="sm:text-[54px] text-[40px] text-center font-raleway font-semibold leading-17.5 mb-4">
+              <div className=" flex flex-col items-center justify-center">
+                <h1 className="sm:text-[54px] text-[40px] xl:text-left text-center font-raleway font-semibold leading-17.5 mb-4">
                   About <span className="text-[#F16722]">10'S EVENT</span>
                 </h1>
-                <img className="mx-auto" src={bgShape} alt="About Shape" />
+                <img className="inline-block" src={bgShape} alt="About Shape" />
               </div>
-              {/* left bottom content  */}
-              <div>
+              {/* left content  */}
+              <div className=" ">
                 <div>
                   <p className="text-[16px] font-raleway font-normal leading-6.25 text-[#0D0600] max-w-144.5 mt-6  sm:text-left text-justify">
                     We are a professional team of loyal and professional event
@@ -65,7 +66,8 @@ const AboutFrame = () => {
                 </div>
               </div>
             </div>
-            <div>
+            {/* right content  */}
+            <div className="max-w-150 ">
               <img src={aboutRight} alt="10's event" />
             </div>
           </div>

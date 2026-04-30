@@ -7,12 +7,12 @@ const About10sGroup = () => {
     <>
       <section className="sm:py-20 py-12">
         <Container>
-          <div className="flex lg:flex-row flex-col-reverse flex-col justify-center gap-10">
+          <div className="flex lg:flex-row  flex-col-reverse flex-col justify-center items-center gap-10">
             <div>
               <img src={agency} alt="10's Event Agency" />
             </div>
             <div>
-              <h1 className="uppercase text-[#000000] font-raleway font-medium sm:text-[54px] text-[35px] leading-17.5">
+              <h1 className="uppercase text-[#000000] font-raleway font-medium sm:text-[54px] text-[35px] leading-17.5 xl:text-left text-center">
                 ABOUT <span className="text-[#F16722]">10'S GROUP</span>
               </h1>
               <p className="font-raleway text-[18px] font-normal leading-6.5 text-[#000000] max-w-144.5 sm:text-left text-justify ">
