@@ -12,7 +12,7 @@ const AboutUs = () => {
       <AboutFrame/>
       <Achivement/>
       <About10sGroup/>
-      <CallToAction/>
+      {/* <CallToAction/> */}
     </>
   );
 };

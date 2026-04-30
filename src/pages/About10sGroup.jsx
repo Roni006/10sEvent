@@ -5,17 +5,17 @@ import agency from '../../src/assets/img/aboutus/about10agency.png'
 const About10sGroup = () => {
   return (
     <>
-      <section className="py-20">
+      <section className="sm:py-20 py-12">
         <Container>
-          <div className='flex justify-center gap-10'>
+          <div className="flex lg:flex-row flex-col-reverse flex-col justify-center gap-10">
             <div>
               <img src={agency} alt="10's Event Agency" />
             </div>
             <div>
-              <h1 className="uppercase text-[#000000] font-raleway font-medium text-[54px] leading-17.5">
+              <h1 className="uppercase text-[#000000] font-raleway font-medium sm:text-[54px] text-[35px] leading-17.5">
                 ABOUT <span className="text-[#F16722]">10'S GROUP</span>
               </h1>
-              <p className="font-raleway text-[18px] font-normal leading-6.5 text-[#000000] max-w-144.5">
+              <p className="font-raleway text-[18px] font-normal leading-6.5 text-[#000000] max-w-144.5 sm:text-left text-justify ">
                 10's Group is a company founded by IRADUKUNDA Janvier with the
                 aim to provide product and service to the community of Rwanda.
               </p>
