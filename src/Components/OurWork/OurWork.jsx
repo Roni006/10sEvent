@@ -7,10 +7,10 @@ import WorkPortfolio2 from '../../pages/WorkPortfolio2'
 const OurWork = () => {
   return (
     <>
-    <WorkBanner/>
+    {/* <WorkBanner/> */}
     <WorkPortfolio1/> 
-    <WorkPortfolio2/> 
-    <CallToAction/>
+    {/* <WorkPortfolio2/>  */}
+    {/* <CallToAction/> */}
     </>
   )
 }

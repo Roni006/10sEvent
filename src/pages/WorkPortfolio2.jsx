@@ -12,8 +12,8 @@ const WorkPortfolio2 = () => {
     <>
       <section className="">
         <Container>
-          <div className="flex flex-col justify-center">
-            <div className="flex jsuctify-center items-start gap-7.5">
+          <div className="flex flex-col justify-center items-center">
+            <div className="flex jsuctify-center items-center gap-7.5">
               {/* left content  */}
               <div className="relative">
                 <img src={portfolioBg} alt="" />

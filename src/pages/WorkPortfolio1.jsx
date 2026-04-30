@@ -42,16 +42,16 @@ const WorkPortfolio1 = () => {
     <>
       <section className="py-20">
         <Container>
-          <div className="flex flex-col justify-center">
-            <div className="flex jsuctify-center items-start gap-7.5">
+          <div className="flex flex-col justify-center items-center">
+            <div className="flex flex-col xl:flex-row jsuctify-center items-start gap-7.5">
               {/* left content  */}
               <div className="relative">
                 <img src={portfolioBg} alt="" />
-                <div className="absolute inset-0 flex flex-col items-start justify-center p-[94px_74px_147px_50px]">
-                  <h3 className="text-[#f16722] font-medium font-raleway text-[38px] leading-12">
+                <div className="absolute inset-0 flex flex-col items-start justify-center lg:p-[30px_20px_40px_30px] sm:p-[94px_74px_147px_50px] p-[50px_35px_50px_20px]">
+                  <h3 className="text-[#f16722] font-bold font-raleway lg:text-[28px] sm:text-[38px] text-[20px] leading-12">
                     Eric's Wedding
                   </h3>
-                  <h1 className="text-[50px] font-bold font-raleway leading-17.5 text-[#000000] max-w-108.25 p-[30px_0_16px_0]">
+                  <h1 className=" sm:text-[50px] text-[30px] font-bold font-raleway lg:leading-15 sm:leading-17.5 leading-10 text-[#000000] max-w-108.25 p-[5px_0_16px_0]">
                     Event Planning & Protocol Service
                   </h1>
                   <p className="text-[18px] font-normal font-raleway leading-6.5 text-[#000000] max-w-100">
@@ -61,17 +61,17 @@ const WorkPortfolio1 = () => {
                 </div>
               </div>
               {/* right content  */}
-              <div className="grid grid-cols-2 items-center justify-center gap-8">
-                <img src={wpTop1} alt="work portfolio" />
-                <img src={wpTop2} alt="work portfolio" />
-                <img src={wpTop3} alt="work portfolio" />
-                <img src={wpTop4} alt="work portfolio" />
+              <div className= "  grid grid-cols-2 items-center justify-center sm:gap-8 gap-4">
+                <img className="rounded-md" src={wpTop1} alt="work portfolio" />
+                <img className="rounded-md" src={wpTop2} alt="work portfolio" />
+                <img className="rounded-md" src={wpTop3} alt="work portfolio" />
+                <img className="rounded-md" src={wpTop4} alt="work portfolio" />
               </div>
             </div>
-            <div className="flex gap-10.5 mt-8 ">
+            {/* <div className="flex gap-10.5 mt-8 ">
               <img src={wpTop5} alt="work portfolio" />
               <img className="w-[280px]" src={wpTop6} alt="work portfolio" />
-            </div>
+            </div> */}
           </div>
         </Container>
       </section>
