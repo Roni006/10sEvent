@@ -8,7 +8,7 @@ import About10sGroup from "../../pages/About10sGroup";
 const AboutUs = () => {
   return (
     <>
-      <AboutBanner />
+      {/* <AboutBanner /> */}
       <AboutFrame/>
       <Achivement/>
       <About10sGroup/>

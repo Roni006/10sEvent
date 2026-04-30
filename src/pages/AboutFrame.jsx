@@ -5,13 +5,13 @@ import aboutRight from "../../src/assets/img/aboutus/about10s.png";
 const AboutFrame = () => {
   return (
     <>
-      <section className="py-20">
+      <section className="sm:py-20 py-12">
         <Container>
-          <div className="flex justify-between gap-10">
+          <div className="flex xl:flex-row flex-col justify-between gap-10">
             <div>
               {/* about top  */}
               <div>
-                <h1 className="text-[54px] font-raleway font-semibold leading-17.5 mb-4">
+                <h1 className="sm:text-[54px] text-[40px] text-center font-raleway font-semibold leading-17.5 mb-4">
                   About <span className="text-[#F16722]">10'S EVENT</span>
                 </h1>
                 <img className="mx-auto" src={bgShape} alt="About Shape" />
@@ -19,7 +19,7 @@ const AboutFrame = () => {
               {/* left bottom content  */}
               <div>
                 <div>
-                  <p className="text-[16px] font-raleway font-normal leading-6.25 text-[#0D0600] max-w-144.5 mt-6 ">
+                  <p className="text-[16px] font-raleway font-normal leading-6.25 text-[#0D0600] max-w-144.5 mt-6  sm:text-left text-justify">
                     We are a professional team of loyal and professional event
                     coordinators who work together to serve our clients' every
                     need. From start to finish, we are dedicated to making sure
