@@ -24,7 +24,7 @@ const ContactBody = () => {
                       </label>
                       <br />
                       <input
-                        className="w-full text-[16px] font-raleway font-medium p-[12px_35px_12px_23px] border border-[#ACACAC] rounded-xl outline-none    "
+                        className="focus:border-[#f16722] duration-200 w-full text-[16px] font-raleway font-medium p-[12px_35px_12px_23px] border border-[#ACACAC] rounded-xl outline-none    "
                         type="text"
                         placeholder="Enter Name"
                       />
@@ -37,7 +37,7 @@ const ContactBody = () => {
                       </label>
                       <br />
                       <input
-                        className="w-full text-[16px] font-raleway font-medium p-[12px_35px_12px_23px] border border-[#ACACAC] rounded-xl outline-none    "
+                        className="focus:border-[#f16722] duration-200 w-full text-[16px] font-raleway font-medium p-[12px_35px_12px_23px] border border-[#ACACAC] rounded-xl outline-none    "
                         type="number"
                         placeholder=" Conatact Number"
                       />
@@ -50,7 +50,7 @@ const ContactBody = () => {
                       </label>
                       <br />
                       <input
-                        className="w-full text-[16px] font-raleway font-medium p-[12px_35px_12px_23px] border border-[#ACACAC] rounded-xl outline-none    "
+                        className="focus:border-[#f16722] duration-200 w-full text-[16px] font-raleway font-medium p-[12px_35px_12px_23px] border border-[#ACACAC] rounded-xl outline-none    "
                         type="email"
                         placeholder="Email Address"
                       />
@@ -65,7 +65,7 @@ const ContactBody = () => {
                       <textarea
                         cols={5}
                         rows={8}
-                        className="w-full text-[16px] font-raleway font-medium p-[12px_35px_12px_23px] border border-[#ACACAC] rounded-xl outline-none    "
+                        className="focus:border-[#f16722] duration-200 w-full text-[16px] font-raleway font-medium p-[12px_35px_12px_23px] border border-[#ACACAC] rounded-xl outline-none    "
                         type="text"
                         placeholder="Type your message here..."
                       ></textarea>
@@ -78,7 +78,7 @@ const ContactBody = () => {
                 </form>
               </div>
               {/* right part  */}
-              <div className=" flex flex-col gap-4">
+              <div className="w-134 flex flex-col gap-4">
                 {/* title and description */}
                 <div>
                   <h3 className="text-[38px] font-semibold leading-12.25 font-raleway text-[#000000] ">
@@ -146,8 +146,6 @@ const ContactBody = () => {
 
             {/* side map  */}
             <div className="mt-20">
-              <img src={sideMap} alt="" />
-
               {/* <iframe
                 src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d17324.341207083893!2d90.38425379665946!3d23.77470616691599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s34%20west%20nakhalpara!5e1!3m2!1sen!2sbd!4v1778090243688!5m2!1sen!2sbd"
                 width="600"
@@ -156,7 +154,7 @@ const ContactBody = () => {
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
-              ></iframe> */} 
+              ></iframe> */}
               <iframe
                 src="https://maps.google.com/maps?q=34%20West%20Nakhalpara&output=embed"
                 class="w-full h-100 border-0"
