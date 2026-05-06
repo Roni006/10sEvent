@@ -10,7 +10,7 @@ const ContactBody = () => {
           <div>
             <div className="  items-center gap-25">
               {/* left part  */}
-              <div className="max-w-[641px]  ">
+              <div className="max-w-160.25 ">
                 <h1 className="font-raleway text-[54px] text-[#000000] leading-17.5 font-semibold">
                   Say Hello!
                 </h1>
@@ -70,14 +70,78 @@ const ContactBody = () => {
                         placeholder="Type your message here..."
                       ></textarea>
                     </div>
-                    <button className="bg-[#f16722] py-5 px-45 w-full rounded-md font-raleway font-semibold text-[18px] leading-8.75 text-white cursor-pointer">
+                    {/* button  */}
+                    <button className="bg-[#f16722] border border-[#f16722] hover:bg-transparent hover:text-[#f16722] duration-300 py-3 px-45 w-full rounded-md font-raleway font-semibold text-[18px] leading-8.75 text-white cursor-pointer">
                       Send
                     </button>
                   </div>
                 </form>
               </div>
               {/* right part  */}
-              <div></div>
+              <div className="flex flex-col gap-4">
+                {/* title and description */}
+                <div>
+                  <h3 className="text-[38px] font-semibold leading-12.25 font-raleway text-[#000000] ">
+                    Contact With Us
+                  </h3>
+
+                  <p className="text-[16px] font-raleway font-normal text-[#000000] max-w-112.5 text-justify pt-2">
+                    Looking for the ultimate planning partner? With us you will
+                    get the full package of everything we have to offer: from
+                    event management, to event coordination, theming, catering,
+                    décor & styling, conference... Don't forget we can also
+                    provide entertainment and venue sourcing too!.
+                  </p>
+                </div>
+
+                {/* telephone number  */}
+                <div>
+                  <h3 className="text-[38px] font-semibold leading-12.25 font-raleway text-[#000000] pb-2">
+                    Telephone
+                  </h3>
+
+                  <ul>
+                    <li className="text-[18px] font-medium font-raleway text-[#000000] hover:text-[#f16722] duration-300">
+                      <a href="tel: + 250 786 501 211">+ 250 786 501 211</a>
+                    </li>
+                    <li className="text-[18px] font-medium font-raleway text-[#000000] hover:text-[#f16722] duration-300">
+                      <a href="tel: + 250 786 501 211">+ 250 786 501 211</a>
+                    </li>
+                  </ul>
+                </div>
+
+                {/* email  */}
+                <div>
+                  <h3 className="text-[38px] font-semibold leading-12.25 font-raleway text-[#000000] pb-2">
+                    Email
+                  </h3>
+
+                  <ul>
+                    <li className="text-[18px] font-medium font-raleway text-[#000000]">
+                      <a href="mailto:10sEvent@gmail.com">10sEvent@gmail.com</a>
+                    </li>
+                  </ul>
+                </div>
+
+                {/* social media  */}
+                <div>
+                  <h3 className="text-[38px] font-semibold leading-12.25 font-raleway text-[#000000] pb-2">
+                    Social Media
+                  </h3>
+
+                  <ul className="">
+                    <li className="text-[18px] font-medium font-raleway text-[#000000] hover:text-[#f16722] duration-300">
+                      <a href="#">Instagram</a>
+                    </li>
+                    <li className="text-[18px] font-medium font-raleway text-[#000000] hover:text-[#f16722] duration-300">
+                      <a href="#">Twitter</a>
+                    </li>
+                    <li className="text-[18px] font-medium font-raleway text-[#000000] hover:text-[#f16722] duration-300">
+                      <a href="#">Facebook</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
 
             {/* side map  */}
