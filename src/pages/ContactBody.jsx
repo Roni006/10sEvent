@@ -145,7 +145,7 @@ const ContactBody = () => {
             </div>
 
             {/* side map  */}
-            <div className="mt-20">
+            <div className="mt-15">
               {/* <iframe
                 src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d17324.341207083893!2d90.38425379665946!3d23.77470616691599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s34%20west%20nakhalpara!5e1!3m2!1sen!2sbd!4v1778090243688!5m2!1sen!2sbd"
                 width="600"
