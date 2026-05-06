@@ -8,9 +8,9 @@ const ContactBody = () => {
       <section className="py-20">
         <Container>
           <div>
-            <div className="  items-center gap-25">
+            <div className="flex justify-center gap-25">
               {/* left part  */}
-              <div className="max-w-160.25 ">
+              <div className="w-160.25 ">
                 <h1 className="font-raleway text-[54px] text-[#000000] leading-17.5 font-semibold">
                   Say Hello!
                 </h1>
@@ -78,7 +78,7 @@ const ContactBody = () => {
                 </form>
               </div>
               {/* right part  */}
-              <div className="flex flex-col gap-4">
+              <div className=" flex flex-col gap-4">
                 {/* title and description */}
                 <div>
                   <h3 className="text-[38px] font-semibold leading-12.25 font-raleway text-[#000000] ">
@@ -147,6 +147,22 @@ const ContactBody = () => {
             {/* side map  */}
             <div className="mt-20">
               <img src={sideMap} alt="" />
+
+              {/* <iframe
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d17324.341207083893!2d90.38425379665946!3d23.77470616691599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s34%20west%20nakhalpara!5e1!3m2!1sen!2sbd!4v1778090243688!5m2!1sen!2sbd"
+                width="600"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe> */} 
+              <iframe
+                src="https://maps.google.com/maps?q=34%20West%20Nakhalpara&output=embed"
+                class="w-full h-100 border-0"
+                loading="lazy"
+                allowfullscreen
+              ></iframe>
             </div>
           </div>
         </Container>
