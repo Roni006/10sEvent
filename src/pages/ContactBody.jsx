@@ -130,13 +130,13 @@ const ContactBody = () => {
                   </h3>
 
                   <ul className="">
-                    <li className="text-[18px] font-medium font-raleway text-[#000000] hover:text-[#f16722] duration-300">
+                    <li className="ml-4 pl-1 list-disc text-[18px] font-medium font-raleway text-[#000000] hover:text-[#f16722] duration-300">
                       <a href="#">Instagram</a>
                     </li>
-                    <li className="text-[18px] font-medium font-raleway text-[#000000] hover:text-[#f16722] duration-300">
+                    <li className="ml-4 pl-1 list-disc text-[18px] font-medium font-raleway text-[#000000] hover:text-[#f16722] duration-300">
                       <a href="#">Twitter</a>
                     </li>
-                    <li className="text-[18px] font-medium font-raleway text-[#000000] hover:text-[#f16722] duration-300">
+                    <li className="ml-4 pl-1 list-disc text-[18px] font-medium font-raleway text-[#000000] hover:text-[#f16722] duration-300">
                       <a href="#">Facebook</a>
                     </li>
                   </ul>
