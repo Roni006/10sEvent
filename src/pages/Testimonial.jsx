@@ -15,21 +15,8 @@ const Testimonial = () => {
     arrows: true,
     autoplay: true,
     autoplaySpeed: 3000,
-    // prevArrow: PrevArrow,
-    // nextArrow: NextArrow,
   };
   
-  // const NextArrow = ({ onClick }) => (
-  //   <button onClick={onClick} className="p-2 bg-black text-white rounded-full">
-  //     →
-  //   </button>
-  // );
-
-  // const PrevArrow = ({ onClick }) => (
-  //   <button onClick={onClick} className="p-2 bg-black text-white rounded-full">
-  //     ←
-  //   </button>
-  // );
   return (
     <>
       <section>

@@ -1,8 +1,8 @@
 import React from "react";
 import Container from "../Common/Container/Container";
-import ContactUsBg from '../../src/assets/img/contact-us.png'
+import ContactUsBg from "../../src/assets/img/contact-us.png";
 
-const Contactus = () => {
+const ContactUsPage = () => {
   return (
     <>
       <section className="-mt-20">
@@ -28,4 +28,4 @@ const Contactus = () => {
   );
 };
 
-export default Contactus;
+export default ContactUsPage;
